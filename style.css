@@ -45,6 +45,10 @@ main {
     font-weight: 400;
     font-display: swap;
     margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 .more-articles {
     font-family: 'Source Sans Pro';
@@ -53,12 +57,14 @@ main {
     font-display: swap;
     display: inline-block;
 }
-html {
+.newspaper-container {
     padding: 1em;
-    border: 10em solid #eee;
+    border-radius: 1em;
     margin: 0 auto;
     max-width: 700px;
-    box-shadow: 1em #ddd;
+    box-shadow: 2px 2px 2px #ddd;
+    radius: 10em;
+    background-color: white;
 }
 h5{
     color: red;
@@ -69,17 +75,33 @@ h5{
 h4, h2{
     font-family: 'Roboto Slab';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-display: swap;
 }
 .secone{
     float:left;
     display:inline-block;
-width: 50%;
+width: 40%;
+text-align: justify;
+    text-justify: inter-word;
+    margin-left: 2em;
 }
 .sectwo{
     float:right;
     display:inline-block;
-    width: 50%;
+    width: 40%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+html{
+    background-color: #eee;
+}
+.secone p{
+    margin-left: .3em;
+}
+.sectwo p{
+    margin-left: .3em;
 }
 
