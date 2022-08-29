@@ -1,1 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.date {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+header h1 {
+    font-family: 'Abril Fatface';
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.8em;
+}
+li {
+    display: inline;
+  list-style: none;
+  color: lightgray;
+  text-decoration: none;
+  font-size: 1em;
+margin-left: 3px;
+margin-right: 3px;
+  justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: #777;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    text-align: center;
+    list-style: none;
+    justify-content: space-between;
+}
+nav {
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+main {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    margin: 0 auto;
+}
+.more-articles {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    display: inline-block;
+}
+html {
+    padding: 1em;
+    border: 10em solid #eee;
+    margin: 0 auto;
+    max-width: 700px;
+    box-shadow: 1em #ddd;
+}
+h5{
+    color: red;
+    font-family: 'Abril Fatface';
+    font-weight: 600;
+    font-size: 0.8em;
+}
+h4, h2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+.secone{
+    float:left;
+    display:inline-block;
+width: 50%;
+}
+.sectwo{
+    float:right;
+    display:inline-block;
+    width: 50%;
+}
+
